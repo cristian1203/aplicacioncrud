@@ -65,7 +65,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM luxury_cars ORDER BY id DESC");
         echo "</td>";
         echo "</tr>\n";
     }
-//Cierra la conexión de BD previamente abierta
+//Cierra la conexión de BD previamente abierta hecho
     mysqli_close($mysqli);
     ?>
     </tbdody>
