@@ -1,15 +1,17 @@
-CREATE TABLE users (
+CREATE TABLE luxury_cars (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  surname VARCHAR(100) NOT NULL,
-  name VARCHAR(100) NOT NULL,
-  age INT UNSIGNED NOT NULL
+  brand VARCHAR(100) NOT NULL,
+  model VARCHAR(100) NOT NULL,
+  color VARCHAR(50) NOT NULL,
+  year INT UNSIGNED NOT NULL,
+  price DECIMAL(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO users (surname, name, age) VALUES('Casas', 'Julian', 27);
-INSERT INTO users (surname, name, age) VALUES('Oro', 'Carlos', 32);
-INSERT INTO users (surname, name, age) VALUES('Valencia', 'Pablo', 29);
-INSERT INTO users (surname, name, age) VALUES('Dimas', 'Maria', 19);
-INSERT INTO users (surname, name, age) VALUES('Corrales', 'Marcos', 26);
-INSERT INTO users (surname, name, age) VALUES('Perez', 'Juan', 21);
-INSERT INTO users (surname, name, age) VALUES('Zapata', 'Pedro', 23);
+
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Ferrari', 'LaFerrari', 'Red', 2022, 3000000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Lamborghini', 'Aventador', 'Yellow', 2023, 400000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Rolls-Royce', 'Phantom', 'Black', 2024, 500000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Bugatti', 'Chiron', 'Blue', 2022, 3500000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Porsche', '911 Turbo S', 'White', 2023, 200000.00);
+
 
