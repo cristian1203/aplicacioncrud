@@ -7,7 +7,6 @@ CREATE TABLE luxury_cars (
   price DECIMAL(10, 2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-
 INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Ferrari', 'LaFerrari', 'Rojo', 2022, 3000000.00);
 INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Lamborghini', 'Aventador', 'Amarillo', 2023, 400000.00);
 INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Rolls-Royce', 'Phantom', 'Negro', 2024, 500000.00);
