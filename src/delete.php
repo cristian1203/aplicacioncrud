@@ -20,6 +20,6 @@ mysqli_stmt_close($stmt);
 // Cierra la conexión de base de datos previamente abierta
 mysqli_close($mysqli);
 
-// Redirige a la página principal: index.php
+// Redirige a la página principal: index.php acabado
 header("Location:index.php");
 ?>
