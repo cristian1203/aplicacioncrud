@@ -8,10 +8,10 @@ CREATE TABLE luxury_cars (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
-INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Ferrari', 'LaFerrari', 'Red', 2022, 3000000.00);
-INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Lamborghini', 'Aventador', 'Yellow', 2023, 400000.00);
-INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Rolls-Royce', 'Phantom', 'Black', 2024, 500000.00);
-INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Bugatti', 'Chiron', 'Blue', 2022, 3500000.00);
-INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Porsche', '911 Turbo S', 'White', 2023, 200000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Ferrari', 'LaFerrari', 'Rojo', 2022, 3000000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Lamborghini', 'Aventador', 'Amarillo', 2023, 400000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Rolls-Royce', 'Phantom', 'Negro', 2024, 500000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Bugatti', 'Chiron', 'Azul', 2022, 3500000.00);
+INSERT INTO luxury_cars (brand, model, color, year, price) VALUES('Porsche', '911 Turbo S', 'Blanco', 2023, 200000.00);
 
 
