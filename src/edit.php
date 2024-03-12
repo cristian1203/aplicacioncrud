@@ -104,7 +104,7 @@ mysqli_close($mysqli);
 	</ul>
 	<h2>Modificación coche de lujo</h2>
 <!--Formulario de edición. 
-Al hacer click en el botón Guardar, llama a esta misma página: edit.php acabado-->
+Al hacer click en el botón Guardar, llama a esta misma página: edit.php-->
 	<form action="edit.php" method="post">
 		<div>
 			<label for="brand">Marca</label>
