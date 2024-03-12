@@ -76,7 +76,7 @@
                 }
             }
 
-            // Cierra la conexión ;
+            // Cierra la conexión
             mysqli_close($mysqli);
             ?>
         </main>
