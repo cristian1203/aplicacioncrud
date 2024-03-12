@@ -5,6 +5,13 @@ services:
     image: cristian1502/lamp-crud-app:1.0
     ports: 
       - 80:80
+    environment: 
+      - DB_HOST=mariadb
+      - DB_NAME=${MARIADB_DATABASE}
+      - DB_USER=${MARIADB_USER}
+      - DB_PASSWORD=${MARIADB_PASSWORD}
+    volumes:
+      - ./src:/var/www/html
     depends_on:
       - mariadb
 
